@@ -15,3 +15,12 @@ function debito() {
     document.body.appendChild(paragrafo);
 }
 
+// window.open para abrir em outra janela
+function Sonar() {
+   window.open ("https://www.sonarqube.org/", '_blank');
+}
+
+// location.href para abrir na mesma janela
+function Jenkins() {
+    location.href = "https://www.jenkins.io/";
+}
