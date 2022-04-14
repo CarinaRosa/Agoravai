@@ -1,6 +1,6 @@
 function calcular() {
     var nome = prompt("Digite seu nome: ");
-    window.alert('Olá! ' + nome + ' seja bem vindo.');
+    window.alert('Olá! ' + nome + ' seja bem vindo(a).');
 
     /*if (nome == 'none') {
         window.alert('Digite seu nome!');

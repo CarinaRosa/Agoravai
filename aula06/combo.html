@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combo</title>
+</head>
+<body>
+    <h1>Combo Box</h1>
+    <select onchange="combo(this.value)" id="top">
+        <option value="Paraná">Paraná</option>
+        <option value="Santa Catarina">Santa Catarina</option>
+        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+    </select>
+    
+</body>
+
+    <script>
+        function combo(value) {
+            window.alert(value);
+        }
+    </script>
+</html>
