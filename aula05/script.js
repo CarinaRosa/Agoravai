@@ -1,37 +1,20 @@
-function myFunction() 
-        {
-            var x;
-            var nome = window.prompt("Digite seu nome: ");
+function calcular() {
+    var nome = prompt("Digite seu nome: ");
+    window.alert('Olá! ' + nome + ' seja bem vindo.');
 
-            if (nome != null) {
-                x = "Nome: " + nome;
-                document.getElementById("demo").innerHTML=x;
-                
-            }
+    /*if (nome == 'none') {
+        window.alert('Digite seu nome!');
+        
+    }*/
+    
+    var n1 = parseInt (prompt("Digite sua primeira nota: "));
+    var n2 = parseInt (prompt("Digite sua segunda nota: "));
 
+    var soma = n1+n2;
 
-        }
+    window.alert('Sua nota total é: ' + soma);
 
-function myFunction() 
-        {
-            var x;
-            var n1 = prompt("Digite sua primeira nota: ");
+    var media = soma/2;
 
-            if (n1 != null) {
-                x = "Nota 1: " + n1;
-                document.getElementById("demo").innerHTML=x;
-            }
-
-        }
-
-function myFunction() 
-        {
-            var x;
-            var n2 = prompt("Digite sua segunda nota: ");
-
-            if (n2 != null) {
-                x = "Nota 2: " + n2;
-                document.getElementById("demo").innerHTML=x;
-            }
-
-        }
+    window.alert('Sua media é: ' + media);
+}
