@@ -12,19 +12,44 @@
     <p>Clique no botão abaixo para calcular.</p>
 
     <button onclick="myFunction">Calcular</button>
-    <p id="demo"></p>
+    <p class="demo"></p>
 
     <script>
         function myFunction() 
         {
             var x;
-            var nome = prompt("Digite seu nome: ");
+            var nome = window.prompt("Digite seu nome: ");
 
             if (nome != null) {
                 x = "Nome: " + nome;
-                document.getElementById("demo").innerHTML=x;
+                document.getElementsByClassName("demo").innerHTML=x;
+            } else{
+                alert("Digite seu nome!");
             }
 
+        }
+
+        function myFunction() 
+        {
+            var x;
+            var n1 = window.prompt("Digite sua primeira nota: ");
+
+            if (n1 != null) {
+                x = "Nota 1: " + n1;
+                document.getElementsByClassName("demo").innerHTML=x;
+            }
+
+        }
+
+        function myFunction() 
+        {
+            var x;
+            var n2 = window.prompt("Digite sua segunda nota: ");
+
+            if (n2 != null) {
+                x = "Nota 2: " + n2;
+                document.getElementsByClassName("demo").innerHTML=x;
+            }
 
         }
     </script>
