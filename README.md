@@ -1,15 +1,22 @@
 # Topicos-Especiais-de-Sistemas-Javascript
 
-aula 05
-
-var nome = prompt("Digite o nome do Aluno")
-
-var a1 = prompt("Digite a A1")
-
-var a2 = prompt("Digite a A2")
-
-var media = a1 + a2 / 2
-
-
-
 **console.log(variavel) - serve para mostrar a informação guardada em uma variavel.
+
+
+Bibliotecas 
+jQuery.js: Biblioteca para trabalhar interagindo com o HTML
+   Moment.js: Biblioteca para converter, validar, manipular e exibir datas e horários
+   Chart.js: Biblioteca para a criação de gráficos
+   Voca: Biblioteca para trabalhar com Strings
+   mo.js: Biblioteca para criar animações com SVG. 
+   React: Biblioteca para criar interfaces de usuário.
+
+
+Framework 
+ Java – Hibernate e Spring
+ Ruby – Ruby on Rails
+ JavaScript – AngularJS => código aberto, mantido pela Google. Para criação de páginas dinâmicas
+ Python – Django
+ PHP – Zend e Laravel
+ C# – ASP .NET
+ CSS – Bootstrap
