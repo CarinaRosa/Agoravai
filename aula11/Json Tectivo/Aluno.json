@@ -1,0 +1,58 @@
+[
+    {
+        "Nome":"Tammy Botsford",
+        "Email":"Leanna_Miller@hotmail.com",
+        "Fone":"881.683.3125",
+        "Responsavel":"Wayne Swaniawski",
+        "Turma":"Turma 1",
+        "Nota":8,
+        "Frequencia":51,
+        "Mensalidade":51,
+        "IDAluno":"1",
+        "AtvExtra":[
+            {
+                "Nome":"Barry Hettinger",
+                "Nota":97,
+                "Frequencia":8,
+                "idDisc":"1",
+                "AlunoId":"1"}],
+                "Disciplina":[
+                    {
+                        "Nome":"Barry Hettinger",
+                        "Nota":97,
+                        "Frequencia":8,
+                        "idDisc":"1",
+                        "AlunoId":"1"
+                    }
+                ]
+            },
+    {
+                "Nome":"Hector Schulist",
+                "Email":"Cathrine.Bruen4@gmail.com",
+                "Fone":"440.270.8242",
+                "Responsavel":"Cornelius Ziemann",
+                "Turma":"Turma 2",
+                "Nota":61,
+                "Frequencia":22,
+                "Mensalidade":17,
+                "IDAluno":"2",
+                "AtvExtra":[
+                    {
+                        "Nome":"Sally Koelpin",
+                        "Nota":79,
+                        "Frequencia":99,
+                        "idDisc":"2",
+                        "AlunoId":"2"
+                    }
+                ],
+                "Disciplina":[
+                    {
+                        "Nome":"Sally Koelpin",
+                        "Nota":79,
+                        "Frequencia":99,
+                        "idDisc":"2",
+                        "AlunoId":"2"
+                    }
+                ]
+            }
+        ]
